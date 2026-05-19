@@ -1,0 +1,20 @@
+{
+  "critical_keywords": [
+    "JWT_SECRET",
+    "AWS_KEY"
+  ],
+  "warning_keywords": [
+    "TODO_FIX",
+    "DEPRECATED_API"
+  ],
+  "actions": {
+    "critical": {
+      "label": "incident-severe",
+      "state": "closed"
+    },
+    "warning": {
+      "label": "incident-warning",
+      "state": "open"
+    }
+  }
+}
